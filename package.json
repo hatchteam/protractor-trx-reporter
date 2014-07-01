@@ -1,0 +1,43 @@
+{
+  "name": "protractor-trx-reporter",
+  "version": "0.1.0",
+  "description": "Visual Studio TRX format reporter for Protractor",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hatchteam/protractor-trx-reporter.git"
+  },
+  "keywords": [
+    "protractor-plugin",
+    "protractor-reporter",
+    "trx"
+  ],
+  "author": {
+    "name": "Stefan Barthel",
+    "email": "bas@zuehlke.com"
+  },
+  "dependencies": {
+    "xmlbuilder": "0.4.2"
+  },
+  "devDependencies": {
+    "protractor": "~0.16",
+    "protractor-trx-reporter": "~0.1"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Michael Lehman",
+      "email": "leh@zuehlke.com"
+    }
+  ],
+  "readme": "# protractor-trx-reporter Reporter for the VisualStudio TRX format. ## Installation The easiest way is to keep `protractor-trx-reporter` as a devDependency in your `package.json`. ```json {   "devDependencies": {     "protractor": "~0.16",     "protractor-trx-reporter": "~0.1"   } } ```  You can simple do it by: ```bash npm install protractor-trx-reporter --save-dev ``` ## Configuration ```js // protractor.conf.js module.exports = function(config) {     // creates the trx test report output xml     onPrepare: function () {         console.log('Adding TRX reporter');    require('protractor-trx-reporter');         jasmine.getEnv().addReporter(new jasmine.TrxReporter('ProtractorTestResults.trx'));    },};```----For more information on Protractor see the [homepage]. [homepage]: https://github.com/angular/protractor",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/hatchteam/protractor-trx-reporter/issues"
+  },
+  "_id": "protractor-trx-reporter@0.1.0",
+  "_from": "protractor-trx-reporter@~0.1"
+}
