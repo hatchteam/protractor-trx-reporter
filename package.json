@@ -1,6 +1,6 @@
 {
   "name": "protractor-trx-reporter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Visual Studio TRX format reporter for Protractor",
   "main": "./src/index.js",
   "scripts": {
@@ -38,6 +38,6 @@
   "bugs": {
     "url": "https://github.com/hatchteam/protractor-trx-reporter/issues"
   },
-  "_id": "protractor-trx-reporter@0.1.0",
-  "_from": "protractor-trx-reporter@~0.1"
+  "_id": "protractor-trx-reporter@0.1.1",
+  "_from": "protractor-trx-reporter@~0.1.1"
 }
