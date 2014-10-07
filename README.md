@@ -2,6 +2,9 @@
 
 > Reporter for the VisualStudio TRX format.
 
+## Disclaimer
+The trx reporter is provided by [Zuehlke Engineering AG] "as is" and the author disclaims all warranties with regard to this software.
+
 ## Installation
 
 The easiest way is to keep `protractor-trx-reporter` as a devDependency in your `package.json`.
@@ -37,4 +40,5 @@ module.exports = function(config) {
 For more information on Protractor see the [homepage].
 
 
+[Zuehlke Engineering AG]: http://www.zuehlke.com/
 [homepage]: https://github.com/angular/protractor
